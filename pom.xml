@@ -84,6 +84,9 @@
     </dependencyManagement>
 
     <build>
+        <sourceDirectory>src/main/scala</sourceDirectory>
+        <testSourceDirectory>src/main/scala</testSourceDirectory>
+
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
