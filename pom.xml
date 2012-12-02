@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>ua.t3hnar</groupId>
-    <artifactId>scala-parent-pom_${scala.version}</artifactId>
+    <artifactId>scala-parent-pom_2.10.0-RC2</artifactId>
     <version>2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
