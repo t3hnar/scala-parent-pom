@@ -42,10 +42,11 @@
         <scala.version>2.10</scala.version>
     </properties>
 
+
     <scm>
-        <url>${github.repository.url}</url>
-        <connection>${github.connection}</connection>
-        <developerConnection>${github.connection}</developerConnection>
+        <url>https://github.com/t3hnar/scala-parent-pom</url>
+        <connection>scm:git:ssh://git@github.com/t3hnar/scala-parent-pom</connection>
+        <developerConnection>scm:git:ssh://git@github.com/t3hnar/scala-parent-pom</developerConnection>
     </scm>
 
     <dependencies>
