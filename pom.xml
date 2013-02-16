@@ -126,7 +126,6 @@
                         <args>
                             <arg>-unchecked</arg>
                             <arg>-deprecation</arg>
-                            <arg>-explaintypes</arg>
                         </args>
                         <charset>${project.build.sourceEncoding}</charset>
                     </configuration>
