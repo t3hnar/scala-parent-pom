@@ -11,7 +11,6 @@
         <version>1.2</version>
     </parent>
 
-    <groupId>ua.t3hnar</groupId>
     <artifactId>scala-parent-pom_2.10</artifactId>
     <version>2.2-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -39,8 +38,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
         <scala.version>2.10</scala.version>
+        <scala.lang.version>2.10.1</scala.lang.version>
     </properties>
-
 
     <scm>
         <url>https://github.com/t3hnar/scala-parent-pom</url>
@@ -69,12 +68,27 @@
             <dependency>
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-library</artifactId>
-                <version>2.10.0</version>
+                <version>${scala.lang.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-compiler</artifactId>
-                <version>2.10.0</version>
+                <version>${scala.lang.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-reflect</artifactId>
+                <version>${scala.lang.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-actors</artifactId>
+                <version>${scala.lang.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-swing</artifactId>
+                <version>${scala.lang.version}</version>
             </dependency>
 
             <dependency>
