@@ -4,3 +4,9 @@ target
 # Idea
 .idea
 *.iml
+
+#JRebel
+rebel.xml
+
+# Mac
+.DS_Store
