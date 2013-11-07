@@ -2,15 +2,15 @@
 
 <table border="0">
   <tr>
-    <td>[Scala](http://www.scala-lang.org) </td>
+    <td>Scala </td>
     <td>2.10.3</td>
   </tr>
   <tr>
-    <td>[Specs2](http://etorreborre.github.io/specs2) </td>
+    <td>Specs2 </td>
     <td>2.3.3</td>
   </tr>
   <tr>
-    <td>[ScalaCheck](http://www.scalacheck.org) </td>
+    <td>ScalaCheck </td>
     <td>1.11.0</td>
   </tr>
 </table>
