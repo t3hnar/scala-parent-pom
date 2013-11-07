@@ -12,7 +12,7 @@
     </parent>
 
     <artifactId>scala-parent-pom_2.10</artifactId>
-    <version>2.4</version>
+    <version>2.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Scala Parent Pom</name>
@@ -45,7 +45,7 @@
         <url>https://github.com/t3hnar/scala-parent-pom</url>
         <connection>scm:git:ssh://git@github.com/t3hnar/scala-parent-pom</connection>
         <developerConnection>scm:git:ssh://git@github.com/t3hnar/scala-parent-pom</developerConnection>
-      <tag>scala-parent-pom_2.10-2.4</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
